@@ -1,0 +1,202 @@
+body {/*background-image: url(https://www.xmple.com/wallpaper/graph-paper-white-grey-grid-1920x1080-c2-ffffff-a9a9a9-l2-9-360-a-0-f-20.svg);*/
+	background-attachment: fixed;
+	padding: 10%;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	width: auto;
+	height: auto;
+	display: block;}
+
+html {width: 100%;
+	height: 100%;}
+
+@keyframes fade {from {opacity: 0;}
+				to {opacity: 1;}}
+
+@-webkit-keyframes fade {from {opacity: 0;}
+						to {opacity: 1;}}
+
+br {line-height: 150%}
+
+ul {list-style-type: none;
+	z-index: 5;
+	margin-top: -8%;
+	margin-left: -5%;
+	font-weight: bold;
+	text-align: center;}
+
+li {display: inline;
+	padding: 5%;
+	margin-left: auto;
+	line-height: 10%;
+    text-align: center;}
+
+
+h1  {-webkit- animation-name: fade;
+    -webkit- animation-duration: s;
+    animation-name: fade;
+    animation-duration: 1s;
+    padding: 4%;
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    color: black;
+    font-size: 12rem;
+    bottom: 5rem;
+    left: auto;
+    z-index: 10;
+    position: relative;
+    font-weight: 500;}
+
+.circle {position: absolute;
+		border-radius: 100%;}
+
+.rectangle {position: absolute;}
+
+#greeting.circle {left: auto;
+				top: 3rem;
+				width: 30em;
+				height: 30em;
+				background-image: linear-gradient(to right, #9c3a6f, #975a9b, #8779be, #7596d5, #6bb1e1);
+                z-index: 0;}
+
+#box1 {height: 500px; width: 500px}
+
+p {font-size: 1.25em;
+	position: relative;
+	z-index: 10;
+	line-height: 20pt;
+	text-align: center;}
+	
+a 	{color: black;}
+
+h2 {font-family: 'Comfortaa', sans-serif;
+	position: relative;
+	font-size: 4em;
+	z-index: 100;
+    text-align: center;}
+
+#no1 {z-index: 0}
+#no2 {z-index: 0}
+
+#nama {bottom: 20rem;
+	left: auto;
+    text-align: center;
+    -webkit- animation-name: fade;
+    -webkit- animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+    font-size: 3rem;}
+
+#biodata {-webkit- animation-name: fade;
+    -webkit- animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+    top: 13.5rem;
+    line-height: 35px;
+	left: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    z-index: 100;}
+	
+.rectangle {
+			right: 0;
+			bottom: 0;}
+
+#no1.rectangle {background-image: linear-gradient(to right top, #6bb1e1, #13cde7, #34e5cb, #98f49a, #f9f871);
+				top: 10rem;
+				left: 25rem;
+				width: 40rem;
+				height: 10rem;}
+
+#no2.rectangle {background-image: linear-gradient(to right, #6bb1e1, #13cde7, #34e5cb, #98f49a, #f9f871);
+				top: 15rem;
+				right: 25rem;
+				width: 40rem;
+				height: 10rem;}
+
+#no3.rectangle {background-image: linear-gradient(to top, #ffff71, #ffc259, #fb895d, #d55969);
+                width: 25em; height: 25em; top: 55rem; left: 25rem;}
+
+.bg {width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    display: flex;}
+
+.bounding-box {width: 1000px;
+                height: 200px;
+                position: relative;
+                align-content: center;}
+
+#no1.circle {background-image: linear-gradient(to right bottom, #00709d, #0095bb, #00bac8, #00dec1, #56ffac);
+			width: 15em;
+			height: 15em;
+			top: 25rem;
+			left: 35rem;}
+
+#no2.circle {background-image: linear-gradient(to right top, #00709d, #0095bb, #00bac8, #00dec1, #56ffac);
+			width: 25em;
+			height: 25em;
+			top: 35rem;
+			left: 10rem;}
+
+h2.Description {top: 35rem; left: auto; text-align: center}
+
+p.Description {top: 35rem;}
+
+h2.Education {top: 55rem;}
+
+.school {line-height: 10pt; top: 55rem; left: -20%;}
+
+.year {top: 52.5rem; left: 10%; font-weight: bold;}
+
+h2.Skills {top: 65rem;}
+
+h3 {position: relative; font-size: 1.6rem; z-index: 2}
+
+h3.skill {position: relative; margin-bottom: 2rem; top: 64rem; right: auto; font-size: 1.6rem;
+    left: 12%; text-align: left; z-index: 2}
+
+#sk1, #sk2, #sk3 {text-align: right; top: 60rem; right: 2%;}
+
+#sk2 { right: 12%} #sk3 {right: 22%}
+
+.line {position: relative; display: block; height: 3rem; width: 100%; margin-bottom: 4rem; top: 92.5rem;
+    background-image: linear-gradient(to right, #31c9d6, #3bddc8, #74eead, #b7fa8b, #ffff71); z-index: 0}
+
+#no2.line {width: 90%;}
+
+#no3.line {width: 80%}
+
+#no4.line , #no5.line {width: 30%;} 
+
+#no4 {top: 110rem; background-image: linear-gradient(to right, #9c3a6f, #975a9b, #8779be, #7596d5, #6bb1e1);} 
+
+#no5 {left: 72%; top: 103rem; background-image: linear-gradient(to left, #9c3a6f, #975a9b, #8779be, #7596d5, #6bb1e1);}
+
+h2.Experiences {top: 95rem;}
+
+.experience {position: relative; text-align: left; top: 90.5rem; height: 38rem; column-fill: auto;}
+
+.experience > h3 {line-height: 150%;} .col > p {line-height: -20%; text-align: justify;}
+
+.column {display: table; width: 100%;} .col {display: table-cell; padding: 1.5%;}
+
+
+@media screen and (min-width: 1920px) {
+  
+    p, h1, h2, h3 {width: 100%}
+    
+    h1 {left: auto; top: auto;}
+    #nama {right: auto; ;top: -20rem}
+  
+}
+
+@media screen and (max-width:768px) {
+    width: 90%;
+    p {font-size: 5pt;} h2 {font-size: 24pt} h3 {font-size: 9pt} .col > p {font-size: 9pt}
+    .experience {top: 95rem;} h2.Experiences {top: 97rem;} .year {left: 20%} #sk1, #sk2, #sk3 {font-size: 10pt; top: 67rem}
+    h3.skill {right: 10%; font-size: 13pt; top: 70rem} .bg {width: 500px}
+}
